@@ -1,0 +1,273 @@
+
+.bgcolor {
+    background-color: #316dc3;
+}
+
+.textcolor {
+    color: white;
+}
+
+
+.icons {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+
+.head-top {
+    padding: 5px 0;
+}
+
+.header-button {
+    font-size: 11px;
+    color: #427900;
+    border-color: #427900;
+    background-color: white;
+    margin: 0 4px !important;
+}
+
+@media screen and (max-width: 992px) {
+    .widget, #header div {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+.headingmargin {
+    margin-top: 20px;
+}
+
+.headline {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.green {
+    color: lightgreen;
+}
+
+.gr {
+    color: green;
+}
+
+.favibcon {
+    height: 70px;
+    width: 70px;
+}
+
+.line-icon {
+    overflow: hidden;
+    text-align: center;
+    margin: 10px auto 20px;
+}
+
+.line-icon > span{
+    position: relative;
+    display: inline-block;
+}
+
+.line-icon > span:before, .line-icon >span:after {
+    content: '';
+    position: absolute;
+    top: 80%;
+    border-bottom: 4px solid;
+    width: 50%;
+    margin: 0 20px;
+    color: #8DC63F;
+}
+
+.line-icon > span:before{
+    right: 100%;
+}
+
+.line-icon > span:after {
+    left: 95%;
+}
+
+.blue {
+    color: blue;
+}
+
+.para1 {
+    text-align: justify;
+    line-height: 2em;
+}
+
+.intro {
+    margin-top: 50px;
+    
+}
+
+.stats >div >div {
+    margin: auto;
+    padding: 60px 2px;
+    font-family: 'merri weather', serif;
+}
+
+.stats img {
+    margin-bottom: 12px;
+}
+
+.service-section1 {
+    margin-top: 30px;
+}
+
+.service-section1 div div {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    margin: 30px auto;
+    margin-bottom: 30px;
+    color: #316DC3;
+}
+
+
+
+.service-section1 div div h4 {
+    margin: 20px auto 10px;
+}
+
+
+.fontset {
+    font-size: 15px;
+    font-weight: 600px;
+}
+.gcolor {
+    color: #00FF00;
+}
+
+.line-bottom {
+    color: #316DC3;
+}
+
+.mission > span:after {
+    content: ' ';
+    display: inline-block;
+    border: 2px solid #427900;
+    width: 70px;
+   
+    margin-bottom: 30px !important;
+}
+
+#mission {
+    padding: 50px 2%;
+}
+.mission span {
+    padding-bottom: 10px;
+}
+
+.mission >div >div {
+    margin-bottom: 20px;
+}
+
+.media-body {
+    display: inline-block;
+    margin: 4px 0;
+    padding-top: 4px;
+    font-weight: bolder;
+}
+
+
+.mission-box {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.mission-box img {
+    margin-right: 30px;
+}
+
+.marqiwidth {
+    width: 250px;
+    height: 200px;
+}
+
+p marquee {
+    text-align: justify;
+}
+
+.gallery {
+    padding: 60px 0;
+}
+
+.image-gallery {
+    margin-top: 30px;
+}
+
+.image-gallery img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#footer .container {
+    padding: 50px 10px;
+}
+
+.phonecolor {
+    color: green;
+}
+
+#footer div div {
+    margin-bottom: 10px;
+    min-width: 260px;
+}
+
+#footer img {
+    margin-bottom: 60px;
+}
+
+.imglogo {
+    margin-top: 44px;
+}
+
+.icon {
+    background-color: #316DC3;
+    padding: 10px;
+    border-radius: 99%;
+    margin-right: 10px;
+
+}
+
+ul, li {
+    display: inline-block;
+    margin: 0;
+}
+
+.lastfooter {
+    padding: 10px 10px 2px;
+}
+
+.lastfooter p {
+    margin-left: 90px;
+    vertical-align: middle;
+}
+
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+
+}
+
+.nav-item:hover, .dropdown:hover {
+    background-color: #316DC3;
+    border-radius: 40px;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.imageshov {
+    transition: .6s;
+}
+
+.imageshov:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#about> div, #service > div, #mission > div #gallery > div {
+    padding: 60px 15px;
+}
+
